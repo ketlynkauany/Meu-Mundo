@@ -1,5 +1,5 @@
 function exibirMenu(): number {
-    console.log("Sistema Meu Mundo - Minecraft");
+    console.log("Meu Mundo - Minecraft");
     console.log("==========================");
     console.log("1. Criar Mundo");
     console.log("2. Listar Mundo");
@@ -14,8 +14,8 @@ function criarMundo(): [string, string, string] {
     console.log("Criar meu mundo!");
  
     const biomas = [
-        "Floresta Mista (Variação Montanhosa)",
-        "Floresta Florada (Variação Montanhosa)",
+        "Floresta Mista ",
+        "Floresta Florada ",
         "Floresta de Bétulas",
         "Planícies",
         "Pântanos",
@@ -56,8 +56,8 @@ function atualizarMundo(bioma: string, clima: string, horario: string): [string,
     console.log("\nAtualizar meu mundo!");
 
     const biomas = [
-        "Floresta Mista (Variação Montanhosa)",
-        "Floresta Florada (Variação Montanhosa)",
+        "Floresta Mista ",
+        "Floresta Florada ",
         "Floresta de Bétulas",
         "Planícies",
         "Pântanos",
@@ -118,7 +118,7 @@ function main(): void {
             excluirMundo();
             bioma = clima = horario = null; 
         } else if (opcao === 5) {
-            console.log("Saindo... O mundo foi criado com sucesso!");
+            console.log("Saindo... O mundo foi criado com sucesso! ;) ");
             break;
         } else {
             console.log("Opção inválida, tente novamente.");
