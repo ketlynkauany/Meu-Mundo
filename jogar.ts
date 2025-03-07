@@ -126,3 +126,5 @@ function main(): void {
     }
 }
 
+main()
+
