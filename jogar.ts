@@ -118,7 +118,7 @@ function main(): void {
             excluirMundo();
             bioma = clima = horario = null; 
         } else if (opcao === 5) {
-            console.log("Saindo... O mundo foi criado com sucesso! ;) ");
+            console.log("Saindo... O mundo foi criado com sucesso! ;)  ");
             break;
         } else {
             console.log("Opção inválida, tente novamente.");
